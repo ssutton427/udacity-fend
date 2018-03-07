@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarai - Map Project</title>
+
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="knockout.js"></script>
+  </head>
+  <body>
+    <div id="map">
+
+
+    </div>
+    <img class="sdw-1" title="hide/show sidebar" id="staricon" src="star.png" data-bind="click: toggle"/>
+    <div id="sidebar" class="sdw-1" data-bind="visible: showing() == true">
+      <div id="">
+        <input id="input" placeholder="filter" type="text" data-bind="event: {keyup: filterMarkers}"/>
+        <br/>
+        <ul id="list" data-bind="foreach: filteredVenues">
+          <li data-bind="click: $parent.showMarker">
+            <span data-bind="text: name"></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF6-8A9sLiv1oPmV9EgV2waIH5GCeGcL8&libraries=places&callback=initMap"
+async defer></script>
+  </body>
+</html>

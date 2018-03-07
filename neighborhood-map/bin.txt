@@ -1,0 +1,12 @@
+google maps: AIzaSyDF6-8A9sLiv1oPmV9EgV2waIH5GCeGcL8
+
+fs client id: YG0MNN4AUJHAWGJ25WX3S2FGH34SZRUCCPKRALVYGZHU5DVW
+fs client secret: SB0GY0UIH1DS3TQ1JVKW5S4V2NU1MELWBYKTVJ2ZBBHITRNI
+
+
+
+var streetViewUrl = 'http://maps.googleapis.com/maps/api/streetview?size=500x400&location=' + City + '';
+		$('#street-img').src = streetViewUrl;
+		$scope.imgURL = streetViewUrl;
+
+		var apiURL = 'https://api.foursquare.com/v2/venues/search?client_id=N1IAMKZUIK1AUHKRFGFBKPQ2YKDSBAKS4NTER5SYZN5CROR1&client_secret=4MKLXVLU2FGZQVRMAEDC15P0TFJGSCY3ZUYUZ0KHQQQLQ5R3&v=20130815%20&limit=50&near=' + City + '&query=' + query + '';

@@ -1,0 +1,44 @@
+body {
+  width: 85%;
+  margin: auto;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+#me-img {
+  width: 125px;
+  height: auto;
+}
+
+#mycontainer {
+  width: 100%;
+}
+
+#header {
+  border-bottom: 3px solid grey;
+  padding-bottom: 10px;
+}
+
+#banner {
+  width: 100%;
+}
+#middle {
+  border-bottom: 3px solid grey;
+  padding-bottom: 10px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.img-style-1 {
+  width: 175px;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
