@@ -11,10 +11,10 @@ Udacity has been a interesting/knowledge filled journey for me. My resilience an
 <br/>
 
 The projects in this course:
-* Animal Trading Cards
-* Portfolio
-* Resume
-* Arcade Game
-* Web Optimization
-* Neighborhood Map
-* Feed Reader Testing
+* Animal Trading Cards | https://ssutton427.github.io/udacity-fend/animal-trading-cards/card.html
+* Portfolio | https://ssutton427.github.io/udacity-fend/portfolio/index.html
+* Resume | https://ssutton427.github.io/udacity-fend/resume/index.html
+* Arcade Game | https://ssutton427.github.io/udacity-fend/frogger/index.html
+* Web Optimization | https://ssutton427.github.io/udacity-fend/web_ops/index.html
+* Neighborhood Map | https://ssutton427.github.io/udacity-fend/neighborhood-map/index.html
+* Feed Reader Testing | https://ssutton427.github.io/udacity-fend/feed-reader-testing/index.html
