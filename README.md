@@ -11,5 +11,10 @@ Udacity has been a interesting/knowledge filled journey for me. My resilience an
 <br/>
 
 The projects in this course:
-* Step 1: Download project files
-*
+* Animal Trading Cards
+* Portfolio
+* Resume
+* Arcade Game
+* Web Optimization
+* Neighborhood Map
+* Feed Reader Testing
